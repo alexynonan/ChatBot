@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		32FEB77A2646C8DC004D2273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEB7792646C8DC004D2273 /* AppDelegate.swift */; };
-		32FEB77C2646C8DC004D2273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEB77B2646C8DC004D2273 /* SceneDelegate.swift */; };
 		32FEB77E2646C8DC004D2273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEB77D2646C8DC004D2273 /* ViewController.swift */; };
 		32FEB7812646C8DC004D2273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEB77F2646C8DC004D2273 /* Main.storyboard */; };
 		32FEB7842646C8DC004D2273 /* ChatBot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32FEB7822646C8DC004D2273 /* ChatBot.xcdatamodeld */; };
@@ -20,7 +19,6 @@
 /* Begin PBXFileReference section */
 		32FEB7762646C8DC004D2273 /* ChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FEB7792646C8DC004D2273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		32FEB77B2646C8DC004D2273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		32FEB77D2646C8DC004D2273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32FEB7802646C8DC004D2273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32FEB7832646C8DC004D2273 /* ChatBot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatBot.xcdatamodel; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				32FEB7792646C8DC004D2273 /* AppDelegate.swift */,
-				32FEB77B2646C8DC004D2273 /* SceneDelegate.swift */,
 				32FEB77D2646C8DC004D2273 /* ViewController.swift */,
 				32FEB77F2646C8DC004D2273 /* Main.storyboard */,
 				32FEB7852646C8DE004D2273 /* Assets.xcassets */,
@@ -91,7 +88,6 @@
 				3AE12F6F3A96D5361EBCFED2 /* Pods-ChatBot.debug.xcconfig */,
 				8E1BADFCB9EF61B56A79E6CF /* Pods-ChatBot.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,7 +208,6 @@
 				32FEB77E2646C8DC004D2273 /* ViewController.swift in Sources */,
 				32FEB7842646C8DC004D2273 /* ChatBot.xcdatamodeld in Sources */,
 				32FEB77A2646C8DC004D2273 /* AppDelegate.swift in Sources */,
-				32FEB77C2646C8DC004D2273 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38VT3MSS8Q;
 				INFOPLIST_FILE = ChatBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 38VT3MSS8Q;
 				INFOPLIST_FILE = ChatBot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
