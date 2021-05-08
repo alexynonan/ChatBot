@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ChatBot' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'CDANotification', 	:path => 'CDA/CDANotification'
+  pod 'CDAUtilities',       :path => 'CDA/CDAUtilities'
+  pod 'CDAWebService', 	    :path => 'CDA/CDAWebService'
+  pod 'CDASecurity',        :path => 'CDA/CDASecurity'
+  pod 'CDADownload', 	    :path => 'CDA/CDADownload'
+  pod 'CDALocation',        :path => 'CDA/CDALocation'
+  pod 'CDAUI',              :path => 'CDA/CDAUI'
+
+  # Pods for ChatBot
+
+end
