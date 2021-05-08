@@ -1,0 +1,6 @@
+framework module CDADownload {
+  umbrella header "CDADownload-umbrella.h"
+
+  export *
+  module * { export * }
+}

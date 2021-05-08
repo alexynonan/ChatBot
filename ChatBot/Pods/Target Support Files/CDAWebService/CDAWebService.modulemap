@@ -1,0 +1,6 @@
+framework module CDAWebService {
+  umbrella header "CDAWebService-umbrella.h"
+
+  export *
+  module * { export * }
+}

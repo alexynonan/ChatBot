@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-ChatBot/Pods-ChatBot-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CDADownload/CDADownload.framework
+${BUILT_PRODUCTS_DIR}/CDALocation/CDALocation.framework
+${BUILT_PRODUCTS_DIR}/CDANotification/CDANotification.framework
+${BUILT_PRODUCTS_DIR}/CDASecurity/CDASecurity.framework
+${BUILT_PRODUCTS_DIR}/CDAUI/CDAUI.framework
+${BUILT_PRODUCTS_DIR}/CDAUtilities/CDAUtilities.framework
+${BUILT_PRODUCTS_DIR}/CDAWebService/CDAWebService.framework

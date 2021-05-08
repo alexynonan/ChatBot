@@ -1,0 +1,52 @@
+PODS:
+  - CDADownload (1.0.0)
+  - CDALocation (1.0.0):
+    - CDANotification
+    - CDAUtilities
+  - CDANotification (1.0.0):
+    - CDAUtilities
+  - CDASecurity (1.0.0)
+  - CDAUI (1.0.0):
+    - CDAUtilities
+  - CDAUtilities (1.0.0)
+  - CDAWebService (1.0.0):
+    - CDASecurity
+    - CDAUtilities
+
+DEPENDENCIES:
+  - CDADownload (from `CDA/CDADownload`)
+  - CDALocation (from `CDA/CDALocation`)
+  - CDANotification (from `CDA/CDANotification`)
+  - CDASecurity (from `CDA/CDASecurity`)
+  - CDAUI (from `CDA/CDAUI`)
+  - CDAUtilities (from `CDA/CDAUtilities`)
+  - CDAWebService (from `CDA/CDAWebService`)
+
+EXTERNAL SOURCES:
+  CDADownload:
+    :path: CDA/CDADownload
+  CDALocation:
+    :path: CDA/CDALocation
+  CDANotification:
+    :path: CDA/CDANotification
+  CDASecurity:
+    :path: CDA/CDASecurity
+  CDAUI:
+    :path: CDA/CDAUI
+  CDAUtilities:
+    :path: CDA/CDAUtilities
+  CDAWebService:
+    :path: CDA/CDAWebService
+
+SPEC CHECKSUMS:
+  CDADownload: 180f727e721108a757dcb6b68d779aa9ceb72557
+  CDALocation: 9948b4a93bbf2a3988e3386b63e6cdc572c3f72f
+  CDANotification: 2be6be800315225916271841167b751ed04a525c
+  CDASecurity: 177d3b15d15d410166d70e5d5c88c32b27df67f3
+  CDAUI: aa17309c1fdd7516048bda934e168df927d272db
+  CDAUtilities: 4f5a63e3f3822581cf99bb6e5e71f469d77fd3a4
+  CDAWebService: 9977869e9032f3c5f3642dd1f2618df20f9a249f
+
+PODFILE CHECKSUM: 661f79ac88671f62c02c6d01c1baf43a80a897cf
+
+COCOAPODS: 1.10.1

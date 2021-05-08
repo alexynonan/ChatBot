@@ -1,0 +1,29 @@
+{
+  "name": "CDALocation",
+  "version": "1.0.0",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "CDALocation/Classes/*",
+  "dependencies": {
+    "CDAUtilities": [
+
+    ],
+    "CDANotification": [
+
+    ]
+  },
+  "summary": "A short description of CDALocation.",
+  "source": {
+    "git": "https://github.com/alexynonan/CDA.git",
+    "tag": "1.0.0"
+  },
+  "homepage": "https://github.com/alexynonan/CDA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alexander Ynoñan Huayllapuma": "alexanderynonan@gmail.com"
+  }
+}
