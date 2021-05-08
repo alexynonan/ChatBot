@@ -1,6 +1,0 @@
-framework module CDAUI {
-  umbrella header "CDAUI-umbrella.h"
-
-  export *
-  module * { export * }
-}

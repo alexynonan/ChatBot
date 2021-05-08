@@ -1,6 +1,0 @@
-framework module CDALocation {
-  umbrella header "CDALocation-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module CDASecurity {
-  umbrella header "CDASecurity-umbrella.h"
-
-  export *
-  module * { export * }
-}
